@@ -1,3 +1,15 @@
+---
+layout: post
+title: Zsumuj indeksy liter w alfabecie
+date: 24-06-2020
+category: [programowanie, js, py]
+author: Edyta Jozdowska
+tags: [js, py]
+summary:
+excerpt: 
+published: true
+---
+
 Szybkie zadanie, szybki kod.
 # Zsumuj indeksy liter w alfabecie w zadanym słowie
 
