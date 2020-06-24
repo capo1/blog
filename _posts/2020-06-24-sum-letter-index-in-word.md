@@ -1,0 +1,21 @@
+Szybkie zadanie, szybki kod.
+# Zsumuj indeksy liter w alfabecie w zadanym słowie
+
+```bash
+TEST 1: Math -> 42
+TEST 2: math -> 42
+TEST 3: Thma -> 42
+TEST 4: life -> 32
+```
+
+```js
+words=['Math', 'math', 'Thma', 'life']
+console.log(words.map(a=>a.toLowerCase().split``.reduce((a,b)=>a+b.charCodeAt()-96,0)))
+```
+
+```py
+words=['Math','math','Thma','life']
+
+for word in words:
+    print(sum([ord(l.lower())-96 for l in word]))
+```
