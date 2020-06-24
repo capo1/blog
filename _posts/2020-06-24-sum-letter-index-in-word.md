@@ -23,6 +23,9 @@ TEST 4: life -> 32
 ```js
 words=['Math', 'math', 'Thma', 'life']
 console.log(words.map(a=>a.toLowerCase().split``.reduce((a,b)=>a+b.charCodeAt()-96,0)))
+
+# OUTPUT: [42, 42, 42, 32]
+
 ```
 
 ```py
@@ -30,4 +33,10 @@ words=['Math','math','Thma','life']
 
 for word in words:
     print(sum([ord(l.lower())-96 for l in word]))
+    
+# OUTPUT: 
+42
+42
+42
+32
 ```
