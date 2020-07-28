@@ -4,7 +4,7 @@ layout: post
 title: Walidacja sudoku
 date: 2020-07-28
 category: [programowanie, php, python, "bitwy programowania"]
-author: 
+author: Edyta Jozdowska
 tags: [php, python ]
 excerpt: 
 published: true
